@@ -1,0 +1,82 @@
+/* === LATAR BELAKANG & FONT === */
+body {
+  background: url('https://img.freepik.com/premium-vector/bus-logo-design-vector-travel-bus-logo_293731-683.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg-image {
+  background: rgba(0, 0, 0, 0.7); /* transparan hitam */
+}
+
+/* === KARTU (CARD) === */
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-header h2,
+.card-header h4 {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* === TOMBOL === */
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-info:hover,
+.btn-outline-danger:hover,
+.btn-outline-success:hover {
+  color: #fff;
+}
+
+/* === TABEL === */
+.table th, .table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* === GALERI ARMADA === */
+.armada-section {
+  background-color: #f8f9fa;
+}
+
+.armada-section h2 {
+  color: #212529;
+}
+
+.card-img-top {
+  height: 230px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.card h5 {
+  color: #0d6efd;
+}
+
+/* === RESPONSIF UNTUK MOBILE === */
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
